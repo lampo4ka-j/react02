@@ -1,0 +1,65 @@
+.app-wrapper{
+  width: 1024px;
+  margin: auto;
+}
+.header{
+  background-color: green;
+}
+.sidebar{
+  background-color: green;
+  width: 150px;
+  height: 500px;
+}
+.nav ul{
+  padding: 0;
+  margin: 0;
+}
+.nav ul li{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.nav ul li:hover {
+  background-color: red;
+}
+.nav ul a{
+  text-decoration: none;
+  color:aliceblue;
+}
+.center-wrapper{
+  margin-top: 10px;
+  display: flex;
+}
+.personal-block{
+  display: flex;
+  margin-top: 5px;
+}
+.content{
+  margin-left: 10px;
+}
+.info{
+  margin-left: 25px;
+}
+.info span{
+  display: block;
+}
+.name{
+  font-size: 20px;
+  font-weight: bold;
+}
+.form-post{
+  margin-top: 30px;
+}
+.posts{
+  margin-top: 40px;
+  display: flex;
+}
+.post-logo{
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.post-text{
+  margin-left: 40px;
+  margin-top: 7px;
+}
